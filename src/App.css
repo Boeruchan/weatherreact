@@ -75,6 +75,7 @@ table.cardtext {
   z-index: 2;
   padding: 0;
   border: none;
+  height: 400px;
 }
 
 /* Accordion */
