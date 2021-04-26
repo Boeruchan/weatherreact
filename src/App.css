@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body */
+.App {
+  width: 100%;
+  min-height: 100vh;
+  /* padding: 5%; */
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 0.753) 0%,
+    rgba(66, 128, 251, 1) 65%,
+    rgba(70, 187, 252, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* titel */
+.Titel {
+  justify-content: center;
+  display: flex;
+  margin: 80px;
+}
+h1 {
+  color: white;
+}
+
+/* Card */
+.card {
+  height: 350px;
+  width: 300px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(44, 185, 174, 0.644),
+    rgba(203, 242, 251, 0.801)
+  );
+  border-radius: 15px;
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin: 5px 15px 8px 15px;
+}
+.card img {
+  width: 80%;
+  height: auto;
+  margin-top: -30px;
+}
+.card p {
+  margin-top: -50px;
+  font-size: 30px;
+}
+.card h1 {
+  padding-top: 40px;
+}
+table.cardtext {
+  border: none;
+  margin-top: -30px;
+  margin-bottom: 25px;
+}
+
+.button_card {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(121, 102, 102, 0.3));
+  border-radius: 15px;
+  z-index: 2;
+  padding: 0;
+  border: none;
+}
+
+/* Accordion */
+h3 {
+  font-size: 1rem;
+  padding: 0px 15px;
+}
+.week {
+  width: 88%;
+}
+
+span {
+  margin: 0px 15px -10px 0px;
+}
+
+h3 img {
+  margin: 0px 3px -15px 0px;
+}
+
+/* button */
+.city {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+.accordion {
+  width: 100%;
+  margin: -10px 20px;
+  background: rgba(149, 223, 216, 0.418);
+}
+.accordionHeading {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(121, 102, 102, 0.3));
+  padding: 0px 0px 10px 0px;
+  margin: -2px;
+}
+.accordionHeading .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordionHeading Span {
+  cursor: pointer;
+}
+.accordionContent {
+  height: 0;
+  opacity: 0;
+  padding: 15px;
+  display: flex;
+  overflow: hidden;
+}
+.accordionContent.show {
+  height: 180px;
+  opacity: 1;
+}
+.accordionContent,
+table,
+tr,
+td {
+  width: 100%;
+  max-width: 450px;
+  color: rgb(12, 84, 93);
+  font-size: 15px;
+  padding: 12px;
+  text-align: center;
+}
+.accordionContent,
+th {
+  color: rgb(8, 41, 59);
+  font-size: 15px;
+  padding: 10px;
+}
+
+a {
+  margin-top: 50px;
+}
+
+.click p {
+  font-size: 0.8rem;
+  margin-top: -25%;
+  color: rgb(85, 85, 85);
+}

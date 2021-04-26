@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 4.8897,
+        "lat": 52.374
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 7.57,
+        "feels_like": 4.96,
+        "temp_min": 6.67,
+        "temp_max": 8.33,
+        "pressure": 1023,
+        "humidity": 93
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.57,
+        "deg": 10
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1616077471,
+    "sys": {
+        "type": 1,
+        "id": 1524,
+        "country": "NL",
+        "sunrise": 1616046456,
+        "sunset": 1616089764
+    },
+    "timezone": 3600,
+    "id": 2759794,
+    "name": "Amsterdam",
+    "cod": 200
+}
