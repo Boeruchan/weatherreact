@@ -1,11 +1,10 @@
 import React,  { useState, useEffect } from 'react';
-import { uuid } from 'uuidv4';
+
 
 function WeatherDetail({lat, ion, active, setActive}) {
     const [details, setDetails] = useState('');
     const  [date, setDate] = useState([]);
-    const {uuid} = require('uuidv4');
-    // console.log({uuid})
+
 
     useEffect(() => {       
         const getDataFromServer = async()=>{
@@ -31,7 +30,7 @@ function WeatherDetail({lat, ion, active, setActive}) {
         <h1>{details.timezone} details</h1>
         </div>
         return(
-            <div key={uuid()}>
+            <div>
                 <div className="accordion">
                     <div className="accordionHeading">
                     <div className="container">
