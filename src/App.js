@@ -21,7 +21,7 @@ function App() {
       <div className="city">
         <button onClick={toggled} className="button_card">
           <WeatherFetch city="Zwijndrecht" />
-          <img src="" />
+          <img src="" alt="icon"/>
         </button>
         <div className="detail">
           {toggle ? (
