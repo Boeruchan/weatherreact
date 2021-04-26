@@ -7,11 +7,11 @@ function App() {
   const [toggle, setToggle] = useState(null);
   const [active, setActive] = useState(null);
 
-  const toggled = () => {
-    setToggle(!toggle);
-  };
+  // const toggled = () => {
+  //   setToggle(!toggle);
+  // };
 
-  console.log(toggled);
+  // console.log(toggled);
 
   return (
     <div className="App">
@@ -19,7 +19,7 @@ function App() {
         <h1>WeatherApp</h1>
       </div>
       <div className="city">
-        <button onClick={toggled} className="button_card">
+        <button onClick={()=>setToggle(!toggle)} className="button_card">
           <WeatherFetch city="Zwijndrecht" />
           <img src="" alt="icon"/>
         </button>

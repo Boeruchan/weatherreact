@@ -25,6 +25,7 @@ if (posts === ""){
            <p>{Math.floor(posts.main.temp)}</p>
            <br /><br />
             <table className="cardtext">
+                <tbody>
                 <tr>
                 <td>min temp</td>
                 <td>max temp</td>
@@ -35,6 +36,7 @@ if (posts === ""){
                     <td>{Math.floor(posts.main.temp_max)}</td>
                     <td>{Math.floor(posts.main.humidity)}</td>
                 </tr>
+                </tbody>
             </table>
             <div class="click">
             <p>Click me</p>
